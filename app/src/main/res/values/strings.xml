@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ActionBaseTool</string>
+    <string name="original_data_name">原始資料路徑</string>
+    <string name="original_data_path">Input Data Path</string>
+    <string name="output_data_name">輸出檔案路徑</string>
+    <string name="output_data_path">Output Data Path</string>
+    <string name="data_state">尚未開始</string>
+    <string name="start_button">開始</string>
+</resources>
