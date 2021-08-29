@@ -17,3 +17,7 @@
 `MainActivity.java` 主流程。包含接收資料，載入模型，顯示結果，紀錄結果等流程。
 `Preprocessing.java` 前處理流程。包含讀取藍芽資料，GB filter 流程。
 
+## Results
+![Action base datasets](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/image.png)
+![Action base app reslut]()
+
