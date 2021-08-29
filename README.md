@@ -11,11 +11,22 @@
 本專案需通過 android studio 轉譯成 apk 來進行使用。主要深度學習的實作內容在 `/app/src/main/java/com/csmvl/actionbasetool/` 進行。以下將對該資料夾下的內容進行介紹。
 
 `ActionPredict.java` xgboost 模型 forward 流程。
+
 `Autoencoder.java` 部分前處理 + 深度學習模型 forward 流程 + k-means 取得群中心的部分。 
+
 `CSVFile.java` 檔案處理流程。
+
 `IIRFilter.java` 前處理過濾雜訊流程。
+
 `MainActivity.java` 主流程。包含接收資料，載入模型，顯示結果，紀錄結果等流程。
+
 `Preprocessing.java` 前處理流程。包含讀取藍芽資料，GB filter 流程。
+
+`SignalProcessing.java` 前處理流程。包含對讀取最原始的藍芽接收資料並進行轉換，同時包含 linear filter 與 median filter 部分。
+
+`Utils.java` 其餘部分。
+
+`Xgboost_classifier.java` 分類模型分兩個部分，autoencoder 與 xgboost classifier 部分，詳細請見 [Representing Deep Motion Bases for Sensor Action Recognition](https://hdl.handle.net/11296/726654)。
 
 ## Results
 ![Action base datasets](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/image.png)
