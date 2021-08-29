@@ -32,3 +32,8 @@
 ![Action base datasets](https://github.com/kent1201/TimeGAN-Pytorch/blob/main/src/image.png)
 ![Action base app reslut](https://github.com/kent1201/ActionBaseTool/blob/master/Action_base_app_result.png)
 
+## Requirements
+* Android studio
+* Cavy sensor
+* Android phone
+
