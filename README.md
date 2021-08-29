@@ -8,4 +8,12 @@
 
 ## Project architecture
 
+本專案需通過 android studio 轉譯成 apk 來進行使用。主要深度學習的實作內容在 `/app/src/main/java/com/csmvl/actionbasetool/` 進行。以下將對該資料夾下的內容進行介紹。
+
+`ActionPredict.java` xgboost 模型 forward 流程。
+`Autoencoder.java` 部分前處理 + 深度學習模型 forward 流程 + k-means 取得群中心的部分。 
+`CSVFile.java` 檔案處理流程。
+`IIRFilter.java` 前處理過濾雜訊流程。
+`MainActivity.java` 主流程。包含接收資料，載入模型，顯示結果，紀錄結果等流程。
+`Preprocessing.java` 前處理流程。包含讀取藍芽資料，GB filter 流程。
 
